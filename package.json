@@ -1,6 +1,6 @@
 {
   "name": "vue-isoffline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue plugin detect change on navigator.online",
   "main": "dist/vue-isoffline.js",
   "scripts": {
