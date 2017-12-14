@@ -1,0 +1,28 @@
+{
+  "name": "vue-isoffline",
+  "version": "1.0.0",
+  "description": "A vue plugin detect change on navigator.online",
+  "main": "dist/vue-isoffline.js",
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production && uglifyjs dist/vue-isoffline.js --comments -o dist/vue-isoffline.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/vue-isoffline.js",
+    "dist/vue-isoffline.min.js",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "online",
+    "offline"
+  ],
+  "author": "bigezhang",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.52.1",
+    "rollup-plugin-buble": "^0.18.0",
+    "uglify-js": "^3.2.2"
+  }
+}
